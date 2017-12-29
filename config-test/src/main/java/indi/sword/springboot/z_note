@@ -1,0 +1,20 @@
+Config-test 项目
+Config-App
+
+四个目录下创建Application.properties
+1.项目下的 config
+2.项目根目录
+3.Src/main/resources/config 下面找
+4.Src/main/resources/ 下面找
+网页输入：http://localhost:8888/prop
+
+MyController 、
+abc.properites、myConfigApp、
+appilication.yml、profileTest 网页输入：http://localhost:9999/myprop
+Pom.xml 加上 spring-boot-devtools 依赖 实现热部署，如有困难，查看笔记“使用spring-boot-devtools进行热部署”
+启动ProfileTest，修改MyController的输出信息，尝试热部署
+
+https://docs.spring.io/spring-boot/docs/1.5.7.RELEASE/reference/htmlsingle/
+文档
+
+搜索banner.charset=UTF-8就可以找到一堆内置的属性

@@ -1,0 +1,17 @@
+server:
+  port: 9999
+spring:
+  profiles: linux
+  devtools:
+    restart:
+      enabled: true
+my:
+  user:
+    name: linuxUser
+
+---
+spring:
+  profiles: windows
+my:
+  user:
+    name: windowsUser
