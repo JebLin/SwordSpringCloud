@@ -1,0 +1,8 @@
+
+
+
+first-police（客户端）
+pom.xml : spring-cloud-starter-eureka,
+ PoliceServer, Police, PoliceController, application.yum
+Localhost:8082/call/1
+

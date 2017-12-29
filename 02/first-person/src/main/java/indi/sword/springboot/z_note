@@ -1,0 +1,10 @@
+
+
+
+first-person(调用者）
+Pom.xml : spring-cloud-starter-ribbon  # Ribbon 是一个负载均衡框架
+TestController, personServer,  application.yml
+localhost:8082/router
+
+
+先启动客户端，再启动服务器端,   再启动服务调用者
