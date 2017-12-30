@@ -1,0 +1,11 @@
+
+
+上一个项目复制下来，然后改名
+Cloud-114 , Cloud-person, Cloud_police
+Cloud-114: application.yml(启动的时候相互注册）, serverApp
+先启动 slave1 再启动slave2
+(注意要启动两次serverApp,而不是在一个控制台输入 slave1 ,slave2
+是要在两个服务器端控制台输入slave1,slave2)
+localhost:8761, localhost:8762
+
+开动两个server

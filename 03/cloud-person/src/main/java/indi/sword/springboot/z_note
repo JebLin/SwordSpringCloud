@@ -1,0 +1,9 @@
+
+
+
+Cloud-person: application.yml,TestController,PersonServer启动
+浏览器输入localhost:9000/router
+
+
+
+先启动客户端，再启动服务器端,   再启动服务调用者

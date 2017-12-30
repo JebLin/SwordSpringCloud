@@ -1,0 +1,10 @@
+
+
+
+Cloud-police:application.yml, policeServer
+（启动两次policeServer,分别输入8081,8082 ）修改PoliceController 重启两个server
+(注意要启动两次serverApp,而不是在一个控制台输入 8081,8082 是要在两个服务器端控制台输入8081,8082)
+Localhost:8081/call/666, Localhost:8082/call/888
+如果都能打开的话，说明两个police启动成功
+
+开动两个police
