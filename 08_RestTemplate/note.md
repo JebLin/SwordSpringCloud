@@ -3,6 +3,7 @@
 RestTemplate 负载均衡的原理
 
 该项目解释了 上一个项目中invoker的TestController为什么可以使用@LoadBalanced就有负载均衡的功能？
+```
 	@Bean
     @LoadBalanced
     public RestTemplate getRestTemplate(){
@@ -17,6 +18,7 @@ RestTemplate 负载均衡的原理
         return json;
     }
 
+```
 因为使用了spring的拦截器机制，加了 @LoadBalanced 后，变成了更加牛逼的restTemplate
 
 
