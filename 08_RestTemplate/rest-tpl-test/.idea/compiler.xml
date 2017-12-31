@@ -7,16 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="first-boot" />
-        <module name="first-person" />
-        <module name="my-health-invoker" />
+        <module name="rest-tpl-test" />
         <module name="SwordUtil" />
         <module name="zk_sword" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="first-boot" target="1.8" />
-      <module name="first-person" target="1.8" />
-      <module name="my-health-invoker" target="1.8" />
+      <module name="rest-tpl-test" target="1.8" />
       <module name="zk_sword" target="1.8" />
     </bytecodeTargetLevel>
   </component>
