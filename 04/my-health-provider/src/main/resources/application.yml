@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: my-health-provider
+endpoints:
+  sensitive: false # 敏感端口的配置
+eureka:
+  client:
+    instanceInfoReplicationIntervalSeconds: 10 # 从eureka服务器注册表中获取注册信息的时间间隔（s），默认为30秒
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/ #  注册的服务端的地址

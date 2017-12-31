@@ -1,0 +1,10 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: my-health-invoker
+eureka:
+  client:
+    registry-fetch-interval-seconds: 5  # 间隔多久去服务器拉取注册信息
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka # 注册的服务端的地址
