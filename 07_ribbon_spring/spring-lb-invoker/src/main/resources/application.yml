@@ -1,0 +1,12 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: spring-invoker
+spring-lb-provider: # 客户端名称
+  ribbon: # 命名空间
+    NFLoadBalancerRuleClassName: indi.sword.springboot.MyRule # 配置属性
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka # 注册的服务端的地址
