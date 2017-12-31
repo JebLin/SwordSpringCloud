@@ -1,9 +1,20 @@
 
 
+
 RestTemplate 负载均衡的原理
+知识回顾
+	Spring Cloud中使用Ribbon
+	Client.ribbon.property = value
+	Client名称.namespace.property=value
+
+	Rest-tpl-test项目： pom.xml，myApp,myLoadBalance, MyRequest,myInterceptor,myConfig,MyController,
+
+	输入localhost:8080/call 
 
 该项目解释了 上一个项目中invoker的TestController为什么可以使用@LoadBalanced就有负载均衡的功能？
+接下来自己实现一个LoadBalanced注解
 ```
+
 	@Bean
     @LoadBalanced
     public RestTemplate getRestTemplate(){
