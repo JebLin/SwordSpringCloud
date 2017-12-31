@@ -16,6 +16,13 @@
             <artifactId>ribbon-httpclient</artifactId>
             <version>2.2.2</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.netflix.ribbon/ribbon -->
+        <dependency>
+            <groupId>com.netflix.ribbon</groupId>
+            <artifactId>ribbon</artifactId>
+            <version>2.2.2</version>
+        </dependency>
+
     </dependencies>
 
 </project>

@@ -8,6 +8,7 @@ import com.netflix.niws.client.http.RestClient;
 
 public class TestRibbon {
     public static void main(String[] args) throws Exception {
+
         ConfigurationManager.getConfigInstance().setProperty(
                 "my-client.ribbon.listOfServers", "localhost:8080,localhost:8081"); // 这个可以使用配置文件
         RestClient client = (RestClient) ClientFactory.getNamedClient("my-client");
@@ -17,5 +18,7 @@ public class TestRibbon {
             String json = response.getEntity(String.class);
             System.out.println(json);
         }
+
+        EventSource abstractConfiguration =  ConfigurationManager.getConfigInstance();
     }
 }
