@@ -1,0 +1,69 @@
+
+First-114,first-person,first-police
+复制first-114项目 -> ek-server ,pom.xml 改下名字。
+Pom.xml
+Enable-self-preservation:false ; // 自我保护关闭
+Eviction-interval-time-in-ms:5000
+服务清单清理时间间隔
+复制 first-police -> ek-provider,pom.xml 改下名字, application.xml
+policeServer -> policeApp
+Localhost:8761
+Eureka: leaseRenewalIntervalInSeconds:5 配置心跳间隔
+leaseExpirationDurationInSeconds:10 要是10秒内没响应就剔除掉服务
+清空控制台，看下是否5秒打印一次日志
+复制First-person -> ek-invoker,改下pom.xml  与 application.yml
+TestController,apllication.yml 修改默认抓取服务的时间间隔registry-fetch-interval-seconds:5 , metadata
+
+<groupId>org.springframework.boot</groupId>
+<artifactId>spring-boot-starter-actuator</artifactId>
+查看/health端点
+复制first-114 -> my-health-server
+复制first-police -> my-health-provider
+复制first-person -> my-health-invoker
+修改pom.xml 的名字
+my-health-provider 加上actuator依赖、application.yml sensitive :false
+MyHealthIndicator,myHealthCheckHandler
+
+
+Eureka的自我保护模式
+
+如果在Eureka Server的首页看到以下这段提示，则说明Eureka已经进入了保护模式。
+
+EMERGENCY! EUREKA MAY BE INCORRECTLY CLAIMING INSTANCES ARE UP WHEN THEY'RE NOT. RENEWALS ARE LESSER THAN THRESHOLD AND HENCE THE INSTANCES ARE NOT BEING EXPIRED JUST TO BE SAFE.
+保护模式主要用于一组客户端和Eureka Server之间存在网络分区场景下的保护。一旦进入保护模式，Eureka Server将会尝试保护其服务注册表中的信息，不再删除服务注册表中的数据（也就是不会注销任何微服务）。
+
+详见：https://github.com/Netflix/eureka/wiki/Understanding-Eureka-Peer-to-Peer-Communication
+
+如何解决Eureka Server不踢出已关停的节点的问题
+
+在开发过程中，我们常常希望Eureka Server能够迅速有效地踢出已关停的节点，但是新手由于Eureka自我保护模式，以及心跳周期长的原因，常常会遇到Eureka Server不踢出已关停的节点的问题。解决方法如下：
+
+(1) Eureka Server端：配置关闭自我保护，并按需配置Eureka Server清理无效节点的时间间隔。
+
+eureka.server.enable-self-preservation	# 设为false，关闭自我保护
+eureka.server.eviction-interval-timer-in-ms # 清理间隔（单位毫秒，默认是60*1000）
+(2) Eureka Client端：配置开启健康检查，并按需配置续约更新时间和到期时间。
+
+eureka.client.healthcheck.enabled	# 开启健康检查（需要spring-boot-starter-actuator依赖）
+eureka.instance.lease-renewal-interval-in-seconds	# 续约更新时间间隔（默认30秒）
+eureka.instance.lease-expiration-duration-in-seconds # 续约到期时间（默认90秒）
+示例：
+服务器端配置：
+
+eureka:
+server:
+enable-self-preservation: false
+eviction-interval-timer-in-ms: 4000
+客户端配置：
+
+eureka:
+client:
+healthcheck:
+enabled: true
+instance:
+lease-expiration-duration-in-seconds: 30
+lease-renewal-interval-in-seconds: 10
+注意：
+更改Eureka更新频率将打破服务器的自我保护功能，生产环境下不建议自定义这些配置。
+详见：https://github.com/spring-cloud/spring-cloud-netflix/issues/373
+

@@ -1,0 +1,13 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: ek-invoker
+eureka:
+  client:
+    registry-fetch-interval-seconds: 30 #修改默认抓取服务的时间间隔
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka # 注册的服务端的地址
+logging:
+  level:
+    com.netflix: DEBUG
