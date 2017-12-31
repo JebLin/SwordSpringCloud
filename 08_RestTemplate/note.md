@@ -23,9 +23,11 @@ RestTemplate 负载均衡的原理
 ---
 
 真正的实现LoadBalanced：
+```
 public @interface LoadBalanced {
 }
-
+```
+```
 public interface LoadBalancerClient extends ServiceInstanceChooser {
     <T> T execute(String var1, LoadBalancerRequest<T> var2) throws IOException;
 
@@ -33,15 +35,23 @@ public interface LoadBalancerClient extends ServiceInstanceChooser {
 
     URI reconstructURI(ServiceInstance var1, URI var2);
 }
+```
+```
 public class LoadBalancerAutoConfiguration {
 	...
 }
+```
+```
 public class LoadBalancerInterceptor implements ClientHttpRequestInterceptor {
 	...
 }
+```
+```
 public class RibbonLoadBalancerClient implements LoadBalancerClient {
 	...
 }
+```
+```
 public interface ServiceInstance {
     String getServiceId();
     String getHost();
@@ -50,10 +60,15 @@ public interface ServiceInstance {
     URI getUri();
     Map<String, String> getMetadata();
 }
+```
+```
 public LoadBalancerRequest<ClientHttpResponse> createRequest(final HttpRequest request,
         final byte[] body, final ClientHttpRequestExecution execution) {
 	...
 }
+```
+```
 public class ServiceRequestWrapper extends HttpRequestWrapper {
 	...
 }
+```
