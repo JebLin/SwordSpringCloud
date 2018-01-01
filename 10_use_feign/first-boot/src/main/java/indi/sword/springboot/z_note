@@ -1,0 +1,12 @@
+新项目的构建问题
+使用Spring Boot可快速构建新项目
+
+First-boot 项目
+Pom.xml
+firstApp
+MyController
+启动main方法，网页输入：http://localhost:8080/hello
+
+Person
+MyRestController
+启动main方法，网页输入：http://localhost:8080/person/666

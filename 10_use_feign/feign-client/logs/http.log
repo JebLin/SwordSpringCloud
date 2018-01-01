@@ -1,0 +1,9 @@
+[HelloClient#hello] ---> GET http://localhost:8080/hello HTTP/1.1
+[HelloClient#hello] ---> END HTTP (0-byte body)
+[HelloClient#hello] <--- HTTP/1.1 200 (173ms)
+[HelloClient#hello] content-length: 11
+[HelloClient#hello] content-type: text/plain;charset=UTF-8
+[HelloClient#hello] date: Mon, 01 Jan 2018 04:49:52 GMT
+[HelloClient#hello] 
+[HelloClient#hello] hello world
+[HelloClient#hello] <--- END HTTP (11-byte body)
