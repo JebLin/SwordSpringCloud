@@ -5,7 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/13_use_hystrix.iml" filepath="$PROJECT_DIR$/.idea/13_use_hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/first-hy-client/first-hy-client.iml" filepath="$PROJECT_DIR$/first-hy-client/first-hy-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/first-hy-server/first-hy-server" filepath="$PROJECT_DIR$/first-hy-server/first-hy-server" />
-      <module fileurl="file://$PROJECT_DIR$/hystrix-use1/hystrix-use1.iml" filepath="$PROJECT_DIR$/hystrix-use1/hystrix-use1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-use1-fallback/hystrix-use1-fallback.iml" filepath="$PROJECT_DIR$/hystrix-use1-fallback/hystrix-use1-fallback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-use2-breaker/hystrix-use2-breaker.iml" filepath="$PROJECT_DIR$/hystrix-use2-breaker/hystrix-use2-breaker.iml" />
     </modules>
   </component>
 </project>
