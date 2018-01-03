@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/hystrix-use3-isolationAndCache/src/main/java/indi/sword/springboot/cache/CacheMain.java" line="12" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8732626d-0704-42e8-b5b4-26a804fd099a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/first-hy-server/target/" />
     <ignored path="$PROJECT_DIR$/first-hy-client/target/" />
     <ignored path="$PROJECT_DIR$/hystrix-use1/target/" />
     <ignored path="$PROJECT_DIR$/hystrix-use2-breaker/target/" />
+    <ignored path="$PROJECT_DIR$/hystrix-use3-isolationAndCache/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,35 +19,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OpenMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hystrix-use2-breaker/src/main/java/indi/sword/springboot/OpenMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="27" column="106" lean-forward="false" selection-start-line="27" selection-start-column="106" selection-end-line="27" selection-end-column="106" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1612#1613#0" expanded="true" />
-                <element signature="e#1653#1654#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CloseMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hystrix-use2-breaker/src/main/java/indi/sword/springboot/CloseMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1854#1855#0" expanded="true" />
-                <element signature="e#1895#1896#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="z_note" pinned="false" current-in-tab="true">
+      <file leaf-file-name="z_note" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hystrix-use2-breaker/src/main/java/indi/sword/springboot/z_note">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
@@ -53,11 +29,75 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HystrixCommandGroupKey.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.12/hystrix-core-1.5.12.jar!/com/netflix/hystrix/HystrixCommandGroupKey.class">
+      <file leaf-file-name=".project" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hystrix-use3-isolationAndCache/.project">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+            <state relative-caret-position="24">
+              <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".classpath" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hystrix-use3-isolationAndCache/.classpath">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hystrix-use3-isolationAndCache/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="535">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hystrix-use3-isolationAndCache/src/main/java/indi/sword/springboot/MyCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SemaphoreMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hystrix-use3-isolationAndCache/src/main/java/indi/sword/springboot/SemaphoreMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hystrix-use3-isolationAndCache/src/main/java/indi/sword/springboot/ThreadMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="z_note" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hystrix-use3-isolationAndCache/src/main/java/indi/sword/springboot/z_note">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -66,9 +106,23 @@
       <file leaf-file-name="HystrixCommand.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.12/hystrix-core-1.5.12.jar!/com/netflix/hystrix/HystrixCommand.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-576">
-              <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            <state relative-caret-position="257">
+              <caret line="197" column="52" lean-forward="false" selection-start-line="197" selection-start-column="39" selection-end-line="197" selection-end-column="52" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CacheMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hystrix-use3-isolationAndCache/src/main/java/indi/sword/springboot/cache/CacheMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2083#2084#0" expanded="true" />
+                <element signature="e#2127#2128#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,6 +173,13 @@
         <option value="$PROJECT_DIR$/hystrix-use2-breaker/src/main/java/indi/sword/springboot/OpenMain.java" />
         <option value="$PROJECT_DIR$/hystrix-use2-breaker/src/main/java/indi/sword/springboot/CloseMain.java" />
         <option value="$PROJECT_DIR$/hystrix-use2-breaker/src/main/java/indi/sword/springboot/z_note" />
+        <option value="$PROJECT_DIR$/hystrix-use3-isolationAndCache/.project" />
+        <option value="$PROJECT_DIR$/hystrix-use3-isolationAndCache/src/main/java/indi/sword/springboot/z_note" />
+        <option value="$PROJECT_DIR$/hystrix-use3-isolationAndCache/src/main/java/indi/sword/springboot/ThreadMain.java" />
+        <option value="$PROJECT_DIR$/hystrix-use3-isolationAndCache/src/main/java/indi/sword/springboot/MyCommand.java" />
+        <option value="$PROJECT_DIR$/hystrix-use3-isolationAndCache/src/main/java/indi/sword/springboot/SemaphoreMain.java" />
+        <option value="$PROJECT_DIR$/hystrix-use3-isolationAndCache/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix-use3-isolationAndCache/src/main/java/indi/sword/springboot/cache/CacheMain.java" />
       </list>
     </option>
   </component>
@@ -174,86 +235,6 @@
               <item name="13_use_hystrix" type="b2602c69:ProjectViewProjectNode" />
               <item name="13_use_hystrix" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="13_use_hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="13_use_hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix-use1-fallback" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="13_use_hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="13_use_hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix-use1-fallback" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="13_use_hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="13_use_hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix-use1-fallback" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="13_use_hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="13_use_hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix-use1-fallback" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="13_use_hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="13_use_hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix-use1-fallback" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="13_use_hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="13_use_hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix-use1-fallback" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="13_use_hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="13_use_hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix-use2-breaker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="13_use_hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="13_use_hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix-use2-breaker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="13_use_hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="13_use_hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix-use2-breaker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="13_use_hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="13_use_hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix-use2-breaker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="13_use_hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="13_use_hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix-use2-breaker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -267,7 +248,7 @@
     <property name="nodejs_interpreter_path" value="D:/SOFTWARE/CODE/NODEJS/INSTALL/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/hystrix-use2-breaker" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hystrix-use3-isolationAndCache" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.1507498" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -285,7 +266,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CloseMain">
+  <component name="RunManager" selected="Application.CacheMain">
+    <configuration name="CacheMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="indi.sword.springboot.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="indi.sword.springboot.cache.CacheMain" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="hystrix-use3-isolationAndCache" />
+      <envs />
+    </configuration>
     <configuration name="CloseMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -303,25 +303,6 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="hystrix-use2-breaker" />
-      <envs />
-    </configuration>
-    <configuration name="FallBackMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="indi.sword.springboot.fallback.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="indi.sword.springboot.fallback.FallBackMain" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="hystrix-use1" />
       <envs />
     </configuration>
     <configuration name="OpenMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -343,33 +324,14 @@
       <module name="hystrix-use2-breaker" />
       <envs />
     </configuration>
-    <configuration name="PropertyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="SemaphoreMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="indi.sword.springboot.config.*" />
+          <option name="PATTERN" value="indi.sword.springboot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="indi.sword.springboot.config.PropertyMain" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="hystrix-use1-fallback" />
-      <envs />
-    </configuration>
-    <configuration name="TimeOutMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="indi.sword.springboot.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="indi.sword.springboot.config.TimeOutMain" />
+      <option name="MAIN_CLASS_NAME" value="indi.sword.springboot.SemaphoreMain" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -378,7 +340,26 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="hystrix-use1" />
+      <module name="hystrix-use3-isolationAndCache" />
+      <envs />
+    </configuration>
+    <configuration name="ThreadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="indi.sword.springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="indi.sword.springboot.ThreadMain" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="hystrix-use3-isolationAndCache" />
       <envs />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -463,19 +444,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.TimeOutMain" />
-      <item index="1" class="java.lang.String" itemvalue="Application.PropertyMain" />
-      <item index="2" class="java.lang.String" itemvalue="Application.FallBackMain" />
-      <item index="3" class="java.lang.String" itemvalue="Application.OpenMain" />
-      <item index="4" class="java.lang.String" itemvalue="Application.CloseMain" />
+      <item index="0" class="java.lang.String" itemvalue="Application.OpenMain" />
+      <item index="1" class="java.lang.String" itemvalue="Application.CloseMain" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ThreadMain" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SemaphoreMain" />
+      <item index="4" class="java.lang.String" itemvalue="Application.CacheMain" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.CloseMain" />
-        <item index="1" class="java.lang.String" itemvalue="Application.OpenMain" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PropertyMain" />
-        <item index="3" class="java.lang.String" itemvalue="Application.FallBackMain" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TimeOutMain" />
+        <item index="0" class="java.lang.String" itemvalue="Application.CacheMain" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SemaphoreMain" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ThreadMain" />
+        <item index="3" class="java.lang.String" itemvalue="Application.CloseMain" />
+        <item index="4" class="java.lang.String" itemvalue="Application.OpenMain" />
       </list>
     </recent_temporary>
   </component>
@@ -490,16 +471,15 @@
       <option name="presentableId" value="Default" />
       <updated>1514947725645</updated>
       <workItem from="1514947732826" duration="4248000" />
-      <workItem from="1514961139291" duration="4808000" />
+      <workItem from="1514961139291" duration="7944000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9056000" />
+    <option name="totallyTimeSpent" value="12192000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -510,11 +490,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -525,7 +506,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -540,32 +520,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/zz_note.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.12/hystrix-core-1.5.12.jar!/com/netflix/hystrix/HystrixCommand.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1776">
-          <caret line="95" column="13" lean-forward="false" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first-hy-client/.project" />
-    <entry file="file://$PROJECT_DIR$/first-hy-server/first-hy-server" />
-    <entry file="file://$PROJECT_DIR$/first-hy-server/.project" />
     <entry file="file://$PROJECT_DIR$/first-hy-client/src/main/java/indi/sword/springboot/PoliceController.java" />
     <entry file="file://$PROJECT_DIR$/first-hy-client/src/main/java/indi/sword/springboot/PoliceServer.java" />
     <entry file="file://$PROJECT_DIR$/first-hy-server/pom.xml" />
@@ -609,13 +569,13 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1514966085030" expanded="true" signature="53401:53632" ph="..." />
-            <marker date="1514966085030" expanded="true" signature="53401:53647" ph="..." />
-            <marker date="1514966085030" expanded="true" signature="53401:53661" ph="..." />
-            <marker date="1514966085030" expanded="true" signature="53401:53676" ph="..." />
-            <marker date="1514966085030" expanded="true" signature="53434:53612" ph="..." />
-            <marker date="1514966085030" expanded="true" signature="53474:53578" ph="..." />
-            <marker date="1514966085030" expanded="true" signature="53495:53556" ph="..." />
+            <marker date="1514970127420" expanded="true" signature="57915:58146" ph="..." />
+            <marker date="1514970127420" expanded="true" signature="57915:58161" ph="..." />
+            <marker date="1514970127420" expanded="true" signature="57915:58175" ph="..." />
+            <marker date="1514970127420" expanded="true" signature="57915:58190" ph="..." />
+            <marker date="1514970127420" expanded="true" signature="57948:58126" ph="..." />
+            <marker date="1514970127420" expanded="true" signature="57988:58092" ph="..." />
+            <marker date="1514970127420" expanded="true" signature="58009:58070" ph="..." />
           </folding>
         </state>
       </provider>
@@ -685,7 +645,7 @@
         <state relative-caret-position="96">
           <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -762,7 +722,7 @@
         <state relative-caret-position="199">
           <caret line="41" column="40" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -772,7 +732,7 @@
         <state relative-caret-position="288">
           <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -782,9 +742,9 @@
         <state relative-caret-position="168">
           <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#642#643#0" expanded="false" />
+            <element signature="e#746#747#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -794,18 +754,10 @@
         <state relative-caret-position="343">
           <caret line="27" column="106" lean-forward="false" selection-start-line="27" selection-start-column="106" selection-end-line="27" selection-end-column="106" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1612#1613#0" expanded="true" />
-            <element signature="e#1653#1654#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1612#1613#0" expanded="false" />
+            <element signature="e#1653#1654#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.12/hystrix-core-1.5.12.jar!/com/netflix/hystrix/HystrixCommand.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-576">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -833,6 +785,86 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hystrix-use3-isolationAndCache/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hystrix-use3-isolationAndCache/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hystrix-use3-isolationAndCache/src/main/java/indi/sword/springboot/ThreadMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hystrix-use3-isolationAndCache/src/main/java/indi/sword/springboot/MyCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hystrix-use3-isolationAndCache/src/main/java/indi/sword/springboot/SemaphoreMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hystrix-use3-isolationAndCache/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.12/hystrix-core-1.5.12.jar!/com/netflix/hystrix/HystrixCommand.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="197" column="52" lean-forward="false" selection-start-line="197" selection-start-column="39" selection-end-line="197" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hystrix-use3-isolationAndCache/src/main/java/indi/sword/springboot/cache/CacheMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2083#2084#0" expanded="true" />
+            <element signature="e#2127#2128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hystrix-use3-isolationAndCache/src/main/java/indi/sword/springboot/z_note">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -889,7 +921,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>hystrix-use2-breaker</last-edited>
+          <last-edited>hystrix-use3-isolationAndCache</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

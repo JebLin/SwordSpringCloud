@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/first-hy-server/first-hy-server" filepath="$PROJECT_DIR$/first-hy-server/first-hy-server" />
       <module fileurl="file://$PROJECT_DIR$/hystrix-use1-fallback/hystrix-use1-fallback.iml" filepath="$PROJECT_DIR$/hystrix-use1-fallback/hystrix-use1-fallback.iml" />
       <module fileurl="file://$PROJECT_DIR$/hystrix-use2-breaker/hystrix-use2-breaker.iml" filepath="$PROJECT_DIR$/hystrix-use2-breaker/hystrix-use2-breaker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-use3-isolationAndCache/hystrix-use3-isolationAndCache.iml" filepath="$PROJECT_DIR$/hystrix-use3-isolationAndCache/hystrix-use3-isolationAndCache.iml" />
     </modules>
   </component>
 </project>

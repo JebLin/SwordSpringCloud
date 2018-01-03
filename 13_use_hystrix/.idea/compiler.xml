@@ -13,12 +13,16 @@
         <module name="hystrix-use1" />
         <module name="hystrix-use1 (1)" />
         <module name="hystrix-use2-breaker" />
+        <module name="hystrix-use2-breaker (1)" />
+        <module name="hystrix-use3-isolationAndCache" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="hystrix-use1" target="1.8" />
       <module name="hystrix-use1 (1)" target="1.8" />
       <module name="hystrix-use2-breaker" target="1.8" />
+      <module name="hystrix-use2-breaker (1)" target="1.8" />
+      <module name="hystrix-use3-isolationAndCache" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

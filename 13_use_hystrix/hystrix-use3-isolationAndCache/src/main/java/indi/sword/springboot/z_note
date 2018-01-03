@@ -1,0 +1,11 @@
+
+
+隔离策略
+
+    THREAD 线程池
+    SEMAPHORE 信号量
+
+    Hy-use3
+    pom.xml MyCommand ThreadMain SemaphoreMain CacheMain
+
+缓存机制
