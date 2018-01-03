@@ -1,0 +1,20 @@
+https://github.com/netflix/Hystrix/wiki/Configuration
+  异步：
+toObservable
+observe
+Queue
+同步：
+Execute
+
+Hy-user1
+ pom.xml CommandRunMain TimeoutCommand TimeOutMain PropertyMain
+     KeyCommand FallBackMain
+
+Hystrix配置
+    配置超时时间
+    配置key
+回退
+    执行超时等失败情况
+    断路器打开
+    线程池满载
+
