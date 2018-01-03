@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/12_first_hystrix.iml" filepath="$PROJECT_DIR$/.idea/12_first_hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/first-hy-client/first-hy-client.iml" filepath="$PROJECT_DIR$/first-hy-client/first-hy-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/first-hy-server/first-hy-server" filepath="$PROJECT_DIR$/first-hy-server/first-hy-server" />
+    </modules>
+  </component>
+</project>

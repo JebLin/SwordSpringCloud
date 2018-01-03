@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="first-114" />
+        <module name="first-hy-client" />
+        <module name="first-hy-server" />
+        <module name="first-police" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="first-114" target="1.8" />
+      <module name="first-hy-client" target="1.8" />
+      <module name="first-hy-server" target="1.8" />
+      <module name="first-police" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

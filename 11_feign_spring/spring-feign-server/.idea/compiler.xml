@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="first-114" />
         <module name="first-boot" />
+        <module name="spring-feign-server" />
         <module name="SwordUtil" />
         <module name="zk_sword" />
       </profile>
@@ -15,6 +16,7 @@
     <bytecodeTargetLevel target="1.8">
       <module name="first-114" target="1.8" />
       <module name="first-boot" target="1.8" />
+      <module name="spring-feign-server" target="1.8" />
       <module name="zk_sword" target="1.8" />
     </bytecodeTargetLevel>
   </component>
