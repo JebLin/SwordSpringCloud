@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="first-114" />
+        <module name="first-hy-client" />
+        <module name="first-hy-server" />
+        <module name="first-police" />
+        <module name="spring-hy-member" />
+        <module name="spring-hy-sale" />
+        <module name="spring-hy-sale (1)" />
+        <module name="spring-hy-sale (2)" />
+        <module name="spring-hy-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="spring-hy-member" target="1.8" />
+      <module name="spring-hy-sale" target="1.8" />
+      <module name="spring-hy-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/14_hystrix_spring.iml" filepath="$PROJECT_DIR$/.idea/14_hystrix_spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/first-hy-client/first-hy-client.iml" filepath="$PROJECT_DIR$/first-hy-client/first-hy-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/first-hy-server/first-hy-server" filepath="$PROJECT_DIR$/first-hy-server/first-hy-server" />
+      <module fileurl="file://$PROJECT_DIR$/spring-hy-member/spring-hy-member.iml" filepath="$PROJECT_DIR$/spring-hy-member/spring-hy-member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-hy-sale/spring-hy-sale.iml" filepath="$PROJECT_DIR$/spring-hy-sale/spring-hy-sale.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-hy-server/spring-hy-server.iml" filepath="$PROJECT_DIR$/spring-hy-server/spring-hy-server.iml" />
+    </modules>
+  </component>
+</project>
