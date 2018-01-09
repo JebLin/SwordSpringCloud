@@ -1,0 +1,14 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: spring-zuul-gateway
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+zuul:
+  routes:
+    sale:
+      path: /sale/**  #也就表明了，全部请求都进入 9000 端口进行分发
+      serviceId: spring-zuul-sale

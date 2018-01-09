@@ -80,7 +80,7 @@ zuul入门（1）zuul 的概念和原理
 四、zuul 与应用的集成方式
 
     1、ZuulServlet - 处理请求（调度不同阶段的filters，处理异常等）
-    
+
     ZuulServlet类似SpringMvc的DispatcherServlet，所有的Request都要经过ZuulServlet的处理
 
     三个核心的方法preRoute(),route(), postRoute()，zuul对request处理逻辑都在这三个方法里
@@ -125,3 +125,13 @@ zuul入门（1）zuul 的概念和原理
 
 
 
+编写第一个Zuul程序
+
+    建立服务项目
+    建立网关项目
+
+    复制两个first-boot过来
+    Zuul-first-source pom.xml MyApplication SourceApp
+    Zuul-first-router pom.xml RouterApp application.yml
+
+    Localhost:9000/mymysource/hello/angus

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/17_Eureka_Zuul.iml" filepath="$PROJECT_DIR$/.idea/17_Eureka_Zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-zuul-gateway/spring-zuul-gateway.iml" filepath="$PROJECT_DIR$/spring-zuul-gateway/spring-zuul-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-zuul-member/spring-zuul-member.iml" filepath="$PROJECT_DIR$/spring-zuul-member/spring-zuul-member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-zuul-sale/spring-zuul-sale.iml" filepath="$PROJECT_DIR$/spring-zuul-sale/spring-zuul-sale.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-zuul-server/spring-zuul-server.iml" filepath="$PROJECT_DIR$/spring-zuul-server/spring-zuul-server.iml" />
+    </modules>
+  </component>
+</project>
