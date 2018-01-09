@@ -1,4 +1,6 @@
+1、Where does the name come from?
 
+hystrix对应的中文名字是“豪猪”，豪猪周身长满了刺，能保护自己不受天敌的伤害，代表了一种防御机制，这与hystrix本身的功能不谋而合，因此Netflix团队将该框架命名为Hystrix，并使用了对应的卡通形象做作为logo。
 
 Netflix近日发布了Hystrix，该库旨在通过控制那些访问远程系统、服务和第三方库的节点，从而对延迟和故障提供更强大的容错能力。Hystrix具备拥有回退机制和断路器功能的线程和信号隔离，请求缓存和请求打包（request collapsing，即自动批处理，译者注），以及监控和配置等功能。Hystrix源于Netflix API团队在2011年启动的弹性工程工作，而目前它在Netflix每天处理着数百亿的隔离线程以及数千亿的隔离信号调用。Hystrix是基于Apache License 2.0协议的开源的程序库，目前托管在GitHub上。
 

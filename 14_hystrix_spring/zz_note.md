@@ -1,4 +1,9 @@
 
+1、Where does the name come from?
+
+hystrix对应的中文名字是“豪猪”，豪猪周身长满了刺，能保护自己不受天敌的伤害，代表了一种防御机制，这与hystrix本身的功能不谋而合，因此Netflix团队将该框架命名为Hystrix，并使用了对应的卡通形象做作为logo。
+
+
 准备项目
     销售模块(hystrix 放在这）
     会员模块

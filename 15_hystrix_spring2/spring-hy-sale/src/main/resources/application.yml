@@ -1,0 +1,21 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: spring-hy-sale
+feign:
+  hystrix:
+    enabled: true
+hystrix:
+  command:
+    HelloClient#toHello():  # 如果 HelloClient 的 toHello 方法处理超过 下面的500毫秒的话，就会触发 fallback
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 500
+      circuitBreaker:
+        requestVolumeThreshold: 3  # 10秒内有3个请求满足第一个条件，有一半是失败的话，满足断路器第二个条件
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/ # 注册的服务端的地址
