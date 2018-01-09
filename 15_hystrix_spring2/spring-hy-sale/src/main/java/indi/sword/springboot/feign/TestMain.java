@@ -11,7 +11,7 @@ public class TestMain {
 
     public static void main(String[] args) throws Exception {
         final CloseableHttpClient httpclient = HttpClients.createDefault();
-        final String url = "http://localhost:8081/hello";
+        final String url = "http://localhost:8081/toHello";
 
         for(int i = 0; i < 6; i++) {
             Thread t = new Thread() {
