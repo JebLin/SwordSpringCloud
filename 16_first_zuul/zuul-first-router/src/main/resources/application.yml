@@ -1,0 +1,6 @@
+server:
+  port: 9000
+zuul:
+  routes:
+    MyMysources:   # 待会在网页输入 http://localhost:9000/MyMysources/hello/angus 它就会跳到 http://localhost:8080/hello/angus
+      url: http://localhost:8080

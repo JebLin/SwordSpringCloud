@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/16_first_zuul.iml" filepath="$PROJECT_DIR$/.idea/16_first_zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-first-router/zuul-first-router.iml" filepath="$PROJECT_DIR$/zuul-first-router/zuul-first-router.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-first-source/zuul-first-source.iml" filepath="$PROJECT_DIR$/zuul-first-source/zuul-first-source.iml" />
+    </modules>
+  </component>
+</project>
