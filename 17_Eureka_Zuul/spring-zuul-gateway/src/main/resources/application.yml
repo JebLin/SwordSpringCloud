@@ -7,8 +7,28 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+management:
+  security:
+    enabled: false # 安全认证关掉 在页面输入 http://localhost:9000/routes 可以查到路由信息
 zuul:
+  ignoredPatterns: /sale/noRoute
   routes:
     sale:
-      path: /sale/**  #也就表明了，全部请求都进入 9000 端口进行分发
+      path: /sale/**  #也就表明了，全部请求都进入 9000 端口进行分发,推荐使用这一个 ,输入 http://localhost:9000/sale/food-sale/1
       serviceId: spring-zuul-sale
+    spring-zuul-sale:  #这里相当于 serviceId 因为下面是path ，如果下面是 url，那么就是一个简单路由。
+      path: /sale/**
+    abc:            # 这里下面的url 既不是http开头又不是forward开头，那么就当成一个 serviceId
+      path: /sale/**
+      url: spring-zuul-sale
+     # 上面三个配置，效果是一模一样的,都属于Ribbon 路由
+
+    routeTest: # 简单路由，直接页面输入 输入 localhost:9000/routeTest/baidu 简单路由url格式 http/https 开头
+      path: /routeTest/baidu
+      url: http://www.baidu.com
+    routeBaidu: # 简单路由，直接页面输入 输入 localhost:9000/routeBaidu
+      url: http://www.baidu.com
+
+    testForwardWithParam: # 跳转路由  url以forward开头 ，这个带了参数。不带参数的不会配
+      path: /testForwardWithParam/**
+      url: forward:/source/hello

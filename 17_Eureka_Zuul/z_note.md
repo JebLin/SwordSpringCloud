@@ -1,24 +1,45 @@
 
-销售模块调用会员模块
 
-建立集群项目
-    Eureka服务器
-    服务提供者
-    服务调用者
-    网关
-    
-    First-114 -> spring-zuul-server
-    First-police -> spring-zuul-member 
-    MemberApp Member MainController 
-    First-person -> spring-zuul-sale
-    Member , SaleApp ,TestContoller,MemberClient
-    启动 server sale member 
-    First-police -> spring-zuul-gateway  
-    Pom.xml ,application.yml ,GatewayApp
-    启动 server 再 启动 member 再启动sale，然后验证下这几个有没有问题。
-    
-    再启动 gateway , http://localhost:9000/sale/food-sale/4 浏览器输入这个、
-    
-    @RestController = @Controller + @ResponseBody
+简单路由
 
-意味着，全部请求都从 9000 端口进入，然后进行分发
+    SimpleHostRoutingFilter  Routing过滤器
+    配置连接池：
+    zuul.host.maxTotalConnections：目标主机的最大连接数，默认值为200。配置该项，相当于调用了PoolingHttpClientConnectionManager的setMaxTotal方法。
+    zuul.host.maxPerRouteConnections：每个主机的初始连接数，默认值为20。配置该项，相当于调用了PoolingHttpClientConnectionManager的setDefaultMaxPerRoute方法。
+
+跳转路由
+    
+    SendForwardFilter
+    forward:
+
+Ribbon路由
+    
+    zuul: 
+      routes:
+        sale:
+          path: /sale/**
+          serviceId: zuul-sale-service
+
+自定义路由规则
+    
+    PatternServiceRouteMapper 
+    zuul.ignoredServices
+    zuul.ignoredPatterns
+
+请求头配置
+
+    zuul:
+      sensitiveHeaders: accept-language, cookie
+
+路由端点
+      
+      Actuator依赖
+      management.security.enabled设置为false
+      关掉安全认证之后
+      输入 Localhost:9000/routes 查看路由端点
+  
+
+Spring-zuul-gateway  
+application.yml  输入 localhost:9000/routeTest/163. 
+TestController  ,MyConfig  ,
+Localhost:9000/sale/food-sale/5
