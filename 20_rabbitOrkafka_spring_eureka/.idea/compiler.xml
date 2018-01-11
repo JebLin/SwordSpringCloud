@@ -12,6 +12,9 @@
         <module name="first-kafka" />
         <module name="first-rabbit" />
         <module name="spring-msg-consumer" />
+        <module name="spring-msg-consumer (1)" />
+        <module name="spring-msg-consumer2" />
+        <module name="spring-msg-consumer3" />
         <module name="spring-msg-producer" />
         <module name="spring-msg-server" />
       </profile>
@@ -23,6 +26,9 @@
       <module name="first-kafka" target="1.8" />
       <module name="first-rabbit" target="1.8" />
       <module name="spring-msg-consumer" target="1.8" />
+      <module name="spring-msg-consumer (1)" target="1.8" />
+      <module name="spring-msg-consumer2" target="1.8" />
+      <module name="spring-msg-consumer3" target="1.8" />
       <module name="spring-msg-producer" target="1.8" />
       <module name="spring-msg-server" target="1.8" />
     </bytecodeTargetLevel>

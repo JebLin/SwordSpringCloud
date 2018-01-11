@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/spring-msg-producer/pom.xml" />
         <option value="$PROJECT_DIR$/spring-msg-server/pom.xml" />
         <option value="$PROJECT_DIR$/spring-msg-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-msg-consumer2/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-msg-consumer3/pom.xml" />
       </list>
     </option>
   </component>

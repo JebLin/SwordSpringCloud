@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/19_first-kafka.iml" filepath="$PROJECT_DIR$/.idea/19_first-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/20_rabbitOrkafka_spring_eureka.iml" filepath="$PROJECT_DIR$/.idea/20_rabbitOrkafka_spring_eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/first-kafka/first-kafka.iml" filepath="$PROJECT_DIR$/first-kafka/first-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/first-rabbit/first-rabbit.iml" filepath="$PROJECT_DIR$/first-rabbit/first-rabbit.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-msg-consumer/spring-msg-consumer.iml" filepath="$PROJECT_DIR$/spring-msg-consumer/spring-msg-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-msg-consumer2/spring-msg-consumer2.iml" filepath="$PROJECT_DIR$/spring-msg-consumer2/spring-msg-consumer2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-msg-consumer3/spring-msg-consumer3.iml" filepath="$PROJECT_DIR$/spring-msg-consumer3/spring-msg-consumer3.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-msg-producer/spring-msg-producer.iml" filepath="$PROJECT_DIR$/spring-msg-producer/spring-msg-producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-msg-server/spring-msg-server.iml" filepath="$PROJECT_DIR$/spring-msg-server/spring-msg-server.iml" />
     </modules>
