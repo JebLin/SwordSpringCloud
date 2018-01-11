@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-114" />
+        <module name="cloud-person" />
+        <module name="first-boot" />
+        <module name="first-kafka" />
+        <module name="first-rabbit" />
+        <module name="spring-msg-consumer" />
+        <module name="spring-msg-producer" />
+        <module name="spring-msg-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-114" target="1.8" />
+      <module name="cloud-person" target="1.8" />
+      <module name="first-boot" target="1.8" />
+      <module name="first-kafka" target="1.8" />
+      <module name="first-rabbit" target="1.8" />
+      <module name="spring-msg-consumer" target="1.8" />
+      <module name="spring-msg-producer" target="1.8" />
+      <module name="spring-msg-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

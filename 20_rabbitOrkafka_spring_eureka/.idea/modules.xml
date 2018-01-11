@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/19_first-kafka.iml" filepath="$PROJECT_DIR$/.idea/19_first-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/first-kafka/first-kafka.iml" filepath="$PROJECT_DIR$/first-kafka/first-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/first-rabbit/first-rabbit.iml" filepath="$PROJECT_DIR$/first-rabbit/first-rabbit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-msg-consumer/spring-msg-consumer.iml" filepath="$PROJECT_DIR$/spring-msg-consumer/spring-msg-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-msg-producer/spring-msg-producer.iml" filepath="$PROJECT_DIR$/spring-msg-producer/spring-msg-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-msg-server/spring-msg-server.iml" filepath="$PROJECT_DIR$/spring-msg-server/spring-msg-server.iml" />
+    </modules>
+  </component>
+</project>

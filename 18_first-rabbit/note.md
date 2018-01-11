@@ -39,3 +39,13 @@ Kafka介绍
         浏览器输入 localhost:15672 账号密码Guest guest，可以查看通道等等信息
 
 
+交换器、绑定与队列
+
+    producer --> 交换器（exchange）  --> 绑定 A,B 队列
+ 
+交换器
+
+    direct：根据生产者传过来的“routing key”是否等于“binding key”，来决定将消息发送给哪个队列。
+    topic：根据传过来的“routing key”是否匹配一定的表达式，来决定消息发送给哪个或者哪些队列。
+    fanout：将消息发送给交换器知道的全部队列，这种交换器会忽略设置的“routing key”。
+    headers：根据消息的头信息，来决定将消息发送给哪个队列。
